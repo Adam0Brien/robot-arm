@@ -31,7 +31,7 @@ python3 main.py
 
 ## Requirements
 
-- Raspberry Pi with I2C enabled
+- Raspberry Pi with I2C enabled [How to enable I2C on Raspberry PI](https://www.raspberrypi-spy.co.uk/2014/11/enabling-the-i2c-interface-on-the-raspberry-pi/)
 - PCA9685 at address `0x40`, servos on 0–4 for the arm
 - Python 3 with: `adafruit-circuitpython-servokit` (or `adafruit-motor`, `adafruit-pca9685`), `busio`, `board` (e.g. via Blinka on Pi)
 
